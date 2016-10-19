@@ -1,6 +1,5 @@
 require 'sinatra'
 require 'sinatra/cookies'
-require 'active_support/all'
 
 get '/' do
    unless cookies[:numero]
